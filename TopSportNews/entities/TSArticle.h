@@ -10,4 +10,11 @@
 
 @interface TSArticle : UITableViewCell
 
+@property(nonatomic,copy) NSString* ID;
+@property(nonatomic,copy) NSString* category;  // sports
+@property(nonatomic,copy) NSString* url;
+@property(nonatomic,copy) NSString* thumbURL;
+@property(nonatomic,copy) NSString* title;
+@property(nonatomic,copy) NSString* abstract;
+
 @end

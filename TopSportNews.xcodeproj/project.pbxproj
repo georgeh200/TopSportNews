@@ -19,6 +19,7 @@
 		5E5A0EC51C54F264007A1DFF /* VAricleRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A0EC41C54F264007A1DFF /* VAricleRow.m */; };
 		5E5A0EC91C54F347007A1DFF /* TSArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A0EC81C54F347007A1DFF /* TSArticle.m */; };
 		5E5A0ECB1C54FC57007A1DFF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A0ECA1C54FC57007A1DFF /* Podfile */; };
+		5EE79B7A1C5505FA00E3FD0E /* TSNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE79B791C5505FA00E3FD0E /* TSNews.m */; };
 		C6A3F69E54BDE4A96EA0D02F /* libPods-TopSportNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFA0BF818CB840A50E92D7 /* libPods-TopSportNews.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,9 @@
 		5E5A0EC71C54F347007A1DFF /* TSArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSArticle.h; path = entities/TSArticle.h; sourceTree = "<group>"; };
 		5E5A0EC81C54F347007A1DFF /* TSArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSArticle.m; path = entities/TSArticle.m; sourceTree = "<group>"; };
 		5E5A0ECA1C54FC57007A1DFF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5EE79B781C5505FA00E3FD0E /* TSNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNews.h; path = entities/TSNews.h; sourceTree = "<group>"; };
+		5EE79B791C5505FA00E3FD0E /* TSNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNews.m; path = entities/TSNews.m; sourceTree = "<group>"; };
+		5EE79B7D1C550B9100E3FD0E /* TSObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSObserver.h; path = entities/TSObserver.h; sourceTree = "<group>"; };
 		6DE429272794E1E405B23C8A /* Pods-TopSportNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopSportNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopSportNews/Pods-TopSportNews.release.xcconfig"; sourceTree = "<group>"; };
 		74E417BBD0630D0AF82466DC /* Pods-TopSportNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopSportNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopSportNews/Pods-TopSportNews.debug.xcconfig"; sourceTree = "<group>"; };
 		ABCFA0BF818CB840A50E92D7 /* libPods-TopSportNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TopSportNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,12 +131,12 @@
 		5E5A0E8A1C54CC52007A1DFF /* TopSportNews */ = {
 			isa = PBXGroup;
 			children = (
+				5EE79B7E1C550C6D00E3FD0E /* utilities */,
+				5EE79B7B1C55062C00E3FD0E /* views */,
 				5E5A0EC61C54F30E007A1DFF /* entities */,
 				5E5A0EBE1C54DC94007A1DFF /* components */,
 				5E5A0E8E1C54CC53007A1DFF /* AppDelegate.h */,
 				5E5A0E8F1C54CC53007A1DFF /* AppDelegate.m */,
-				5E5A0E911C54CC53007A1DFF /* ViewController.h */,
-				5E5A0E921C54CC53007A1DFF /* ViewController.m */,
 				5E5A0E941C54CC53007A1DFF /* Main.storyboard */,
 				5E5A0E971C54CC53007A1DFF /* Assets.xcassets */,
 				5E5A0E991C54CC53007A1DFF /* LaunchScreen.storyboard */,
@@ -185,6 +189,25 @@
 				5E5A0EC81C54F347007A1DFF /* TSArticle.m */,
 			);
 			name = entities;
+			sourceTree = "<group>";
+		};
+		5EE79B7B1C55062C00E3FD0E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A0E911C54CC53007A1DFF /* ViewController.h */,
+				5E5A0E921C54CC53007A1DFF /* ViewController.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		5EE79B7E1C550C6D00E3FD0E /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5EE79B781C5505FA00E3FD0E /* TSNews.h */,
+				5EE79B791C5505FA00E3FD0E /* TSNews.m */,
+				5EE79B7D1C550B9100E3FD0E /* TSObserver.h */,
+			);
+			name = utilities;
 			sourceTree = "<group>";
 		};
 		7A06389ADE1DA0A073656592 /* Pods */ = {
@@ -382,6 +405,7 @@
 				5E5A0EC91C54F347007A1DFF /* TSArticle.m in Sources */,
 				5E5A0E931C54CC53007A1DFF /* ViewController.m in Sources */,
 				5E5A0EC51C54F264007A1DFF /* VAricleRow.m in Sources */,
+				5EE79B7A1C5505FA00E3FD0E /* TSNews.m in Sources */,
 				5E5A0E901C54CC53007A1DFF /* AppDelegate.m in Sources */,
 				5E5A0E8D1C54CC53007A1DFF /* main.m in Sources */,
 			);
