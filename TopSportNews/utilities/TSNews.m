@@ -20,7 +20,7 @@
     return sharedInstance;
 }
 
-- (TSNews*)init
+- (id)init
 {
     self = [super init];
     if (self) {
