@@ -94,7 +94,6 @@ static NSString* CATEGORY=@"sports";
 {
     TSArticle * article = self.arrArticles[indexPath.row];
     NSString * cellIdentifier = @"cellIdentifier" ;
-    //   NSString * cellIdentifier =fight.fightID;
     
     VArticleRow * rowCell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (rowCell == nil)

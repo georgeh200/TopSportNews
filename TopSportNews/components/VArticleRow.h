@@ -12,6 +12,10 @@
 @class ViewController;
 @interface VArticleRow : UITableViewCell
 @property (weak, nonatomic) IBOutlet UITextView *txtAbstract;
+@property (weak, nonatomic) IBOutlet UITextView *txtTitle;
+
+@property (weak, nonatomic) IBOutlet UIImageView *imgThumb;
+
 @property(strong,nonatomic) ViewController* controller;
 @property(strong,nonatomic) TSArticle* article;
 
