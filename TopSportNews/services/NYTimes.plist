@@ -7,7 +7,7 @@
 	<key>version</key>
 	<string>v2</string>
 	<key>host</key>
-	<string>http://api.nytimes.com</string>
+	<string>https://api.nytimes.com</string>
 	<key>days</key>
 	<string>30</string>
 	<key>section</key>
