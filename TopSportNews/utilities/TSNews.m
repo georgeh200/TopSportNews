@@ -7,6 +7,7 @@
 //
 
 #import "TSNews.h"
+#import "TSServices.h"
 
 @implementation TSNews
 
@@ -37,6 +38,14 @@
     
 }
 - (void) refreshOld:(NSString*)category
+{
+    
+}
+-(void) addTSObserver:(TSObserver*)observer
+{
+    
+}
+-(void) removeTSObserver:(TSObserver*)observer
 {
     
 }

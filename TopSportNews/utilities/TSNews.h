@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TSObserver.h"
 
 @interface TSNews : NSObject
 @property(strong,nonatomic) NSMutableArray* arrArticles;
@@ -18,6 +19,9 @@
 - (void) refreshNew:(NSString*)category;
 - (void) refreshOld:(NSString*)category;
 - (void) notifyObeservers;
+-(void) addTSObserver:(TSObserver*)observer;
+-(void) removeTSObserver:(TSObserver*)observer;
+
 
 
 

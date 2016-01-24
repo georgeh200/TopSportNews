@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "TSNews.h"
+
+static NSString* CATEGORY=@"sports";
 
 @interface ViewController ()
 
@@ -17,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.vProgress startAnimating];
+    [[TSNews sharedInstance]refreshNew:CATEGORY];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
