@@ -15,6 +15,11 @@
 		5E5A0E9B1C54CC53007A1DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A0E991C54CC53007A1DFF /* LaunchScreen.storyboard */; };
 		5E5A0EA61C54CC53007A1DFF /* TopSportNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A0EA51C54CC53007A1DFF /* TopSportNewsTests.m */; };
 		5E5A0EB11C54CC53007A1DFF /* TopSportNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A0EB01C54CC53007A1DFF /* TopSportNewsUITests.m */; };
+		5E5A0EC21C54DD05007A1DFF /* articleRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A0EC11C54DD05007A1DFF /* articleRow.xib */; };
+		5E5A0EC51C54F264007A1DFF /* VAricleRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A0EC41C54F264007A1DFF /* VAricleRow.m */; };
+		5E5A0EC91C54F347007A1DFF /* TSArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A0EC81C54F347007A1DFF /* TSArticle.m */; };
+		5E5A0ECB1C54FC57007A1DFF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A0ECA1C54FC57007A1DFF /* Podfile */; };
+		C6A3F69E54BDE4A96EA0D02F /* libPods-TopSportNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCFA0BF818CB840A50E92D7 /* libPods-TopSportNews.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		5E5A0EAC1C54CC53007A1DFF /* TopSportNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopSportNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5A0EB01C54CC53007A1DFF /* TopSportNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopSportNewsUITests.m; sourceTree = "<group>"; };
 		5E5A0EB21C54CC53007A1DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5A0EC11C54DD05007A1DFF /* articleRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = articleRow.xib; path = components/articleRow.xib; sourceTree = "<group>"; };
+		5E5A0EC31C54F264007A1DFF /* VAricleRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VAricleRow.h; path = components/VAricleRow.h; sourceTree = "<group>"; };
+		5E5A0EC41C54F264007A1DFF /* VAricleRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VAricleRow.m; path = components/VAricleRow.m; sourceTree = "<group>"; };
+		5E5A0EC71C54F347007A1DFF /* TSArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSArticle.h; path = entities/TSArticle.h; sourceTree = "<group>"; };
+		5E5A0EC81C54F347007A1DFF /* TSArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSArticle.m; path = entities/TSArticle.m; sourceTree = "<group>"; };
+		5E5A0ECA1C54FC57007A1DFF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6DE429272794E1E405B23C8A /* Pods-TopSportNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopSportNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopSportNews/Pods-TopSportNews.release.xcconfig"; sourceTree = "<group>"; };
+		74E417BBD0630D0AF82466DC /* Pods-TopSportNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopSportNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopSportNews/Pods-TopSportNews.debug.xcconfig"; sourceTree = "<group>"; };
+		ABCFA0BF818CB840A50E92D7 /* libPods-TopSportNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TopSportNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A3F69E54BDE4A96EA0D02F /* libPods-TopSportNews.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +93,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36A46D48AAF8EFB1AE857272 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABCFA0BF818CB840A50E92D7 /* libPods-TopSportNews.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5E5A0E7F1C54CC52007A1DFF = {
 			isa = PBXGroup;
 			children = (
+				5E5A0ECA1C54FC57007A1DFF /* Podfile */,
 				5E5A0E8A1C54CC52007A1DFF /* TopSportNews */,
 				5E5A0EA41C54CC53007A1DFF /* TopSportNewsTests */,
 				5E5A0EAF1C54CC53007A1DFF /* TopSportNewsUITests */,
 				5E5A0E891C54CC52007A1DFF /* Products */,
+				7A06389ADE1DA0A073656592 /* Pods */,
+				36A46D48AAF8EFB1AE857272 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +127,8 @@
 		5E5A0E8A1C54CC52007A1DFF /* TopSportNews */ = {
 			isa = PBXGroup;
 			children = (
+				5E5A0EC61C54F30E007A1DFF /* entities */,
+				5E5A0EBE1C54DC94007A1DFF /* components */,
 				5E5A0E8E1C54CC53007A1DFF /* AppDelegate.h */,
 				5E5A0E8F1C54CC53007A1DFF /* AppDelegate.m */,
 				5E5A0E911C54CC53007A1DFF /* ViewController.h */,
@@ -140,6 +168,34 @@
 			path = TopSportNewsUITests;
 			sourceTree = "<group>";
 		};
+		5E5A0EBE1C54DC94007A1DFF /* components */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A0EC11C54DD05007A1DFF /* articleRow.xib */,
+				5E5A0EC31C54F264007A1DFF /* VAricleRow.h */,
+				5E5A0EC41C54F264007A1DFF /* VAricleRow.m */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		5E5A0EC61C54F30E007A1DFF /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A0EC71C54F347007A1DFF /* TSArticle.h */,
+				5E5A0EC81C54F347007A1DFF /* TSArticle.m */,
+			);
+			name = entities;
+			sourceTree = "<group>";
+		};
+		7A06389ADE1DA0A073656592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74E417BBD0630D0AF82466DC /* Pods-TopSportNews.debug.xcconfig */,
+				6DE429272794E1E405B23C8A /* Pods-TopSportNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E5A0EB51C54CC53007A1DFF /* Build configuration list for PBXNativeTarget "TopSportNews" */;
 			buildPhases = (
+				6BB12CE5018EF5AB5D887535 /* Check Pods Manifest.lock */,
 				5E5A0E841C54CC52007A1DFF /* Sources */,
 				5E5A0E851C54CC52007A1DFF /* Frameworks */,
 				5E5A0E861C54CC52007A1DFF /* Resources */,
+				FA93E2146684385928E302AB /* Embed Pods Frameworks */,
+				6E1651F9EEA85107882CCE68 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +302,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5A0ECB1C54FC57007A1DFF /* Podfile in Resources */,
 				5E5A0E9B1C54CC53007A1DFF /* LaunchScreen.storyboard in Resources */,
 				5E5A0E981C54CC53007A1DFF /* Assets.xcassets in Resources */,
 				5E5A0E961C54CC53007A1DFF /* Main.storyboard in Resources */,
+				5E5A0EC21C54DD05007A1DFF /* articleRow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +326,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6BB12CE5018EF5AB5D887535 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1651F9EEA85107882CCE68 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopSportNews/Pods-TopSportNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA93E2146684385928E302AB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopSportNews/Pods-TopSportNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E5A0E841C54CC52007A1DFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5A0EC91C54F347007A1DFF /* TSArticle.m in Sources */,
 				5E5A0E931C54CC53007A1DFF /* ViewController.m in Sources */,
+				5E5A0EC51C54F264007A1DFF /* VAricleRow.m in Sources */,
 				5E5A0E901C54CC53007A1DFF /* AppDelegate.m in Sources */,
 				5E5A0E8D1C54CC53007A1DFF /* main.m in Sources */,
 			);
@@ -411,9 +522,11 @@
 		};
 		5E5A0EB61C54CC53007A1DFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E417BBD0630D0AF82466DC /* Pods-TopSportNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TopSportNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GK.TopSportNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +535,11 @@
 		};
 		5E5A0EB71C54CC53007A1DFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE429272794E1E405B23C8A /* Pods-TopSportNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TopSportNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GK.TopSportNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +613,7 @@
 				5E5A0EB71C54CC53007A1DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E5A0EB81C54CC53007A1DFF /* Build configuration list for PBXNativeTarget "TopSportNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +622,7 @@
 				5E5A0EBA1C54CC53007A1DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E5A0EBB1C54CC53007A1DFF /* Build configuration list for PBXNativeTarget "TopSportNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +631,7 @@
 				5E5A0EBD1C54CC53007A1DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

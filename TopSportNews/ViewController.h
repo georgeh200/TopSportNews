@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *vProgress;
 
-
+@property(nonatomic,strong)NSMutableArray* arrArticles;
 @end
 
