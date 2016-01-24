@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "TSNews.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource ,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *vProgress;
+@property (weak, nonatomic) IBOutlet UITableView *tblArticles;
 
-@property(nonatomic,weak)NSMutableArray* arrArticles;
+@property(nonatomic,strong)NSMutableArray* arrArticles;
 @end
 

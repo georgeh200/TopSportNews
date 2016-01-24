@@ -38,13 +38,17 @@
 
 - (void) refreshNew:(NSString*)category
 {
-    [[TSServices sharedInstance]loadArticles:category withOffset:self.arrArticles.count withSuccess:^(id json) {
+    [self loadArticles:category withOffset:0];
+   }
+-(void)loadArticles:(NSString*)category withOffset:(NSInteger)offset
+{
+    [[TSServices sharedInstance]loadArticles:category withOffset:offset withSuccess:^(id json) {
         
         if([json[@"status"] isEqualToString:@"OK"])
         {
-            [self parseArticles:json[@"results"]];
+            [self parseArticles:json[@"results"] withCategory:category];
             NSDictionary* userInfo = @{@"category": category};
-
+            
             [[NSNotificationCenter defaultCenter]
              postNotificationName:@"RefreshArticles"
              object:self  userInfo:userInfo];
@@ -53,9 +57,10 @@
     } withFailure:^(NSInteger statusCode) {
         
     }];
+
 }
 
--(void)parseArticles:(NSArray*)articles
+-(void)parseArticles:(NSArray*)articles withCategory:(NSString*)category
 {
     TSArticle* article=nil;
    
@@ -66,7 +71,7 @@
         article.title=element[@"title"];
         article.abstract=element[@"abstract"];
         article.url=element[@"url"];
-        
+        article.category=category;
         // we should make sure that those elements existing and array have lenghts and so on before gettting thumbnail
         // but let's trust nytimes for now :)
         //parse thumbnail
@@ -97,7 +102,7 @@
 
 - (void) getMoreArticles:(NSString*)category
 {
-    
+    [self loadArticles:category withOffset:self.arrArticles.count];
 }
 
 

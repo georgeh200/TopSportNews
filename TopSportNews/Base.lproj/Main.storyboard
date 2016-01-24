@@ -36,6 +36,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="0dy-Pa-mWg" secondAttribute="trailing" id="jmn-tC-Ywg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tblArticles" destination="0dy-Pa-mWg" id="99j-bL-I1O"/>
+                        <outlet property="vProgress" destination="urX-re-6cq" id="eiB-sI-uAw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
