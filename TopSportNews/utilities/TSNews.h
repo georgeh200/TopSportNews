@@ -19,8 +19,8 @@
 - (void) refreshNew:(NSString*)category;
 - (void) refreshOld:(NSString*)category;
 - (void) notifyObeservers;
--(void) addTSObserver:(TSObserver*)observer;
--(void) removeTSObserver:(TSObserver*)observer;
+-(void) addTSObserver:(id<TSObserver>*)observer;
+-(void) removeTSObserver:(id<TSObserver>*)observer;
 
 
 

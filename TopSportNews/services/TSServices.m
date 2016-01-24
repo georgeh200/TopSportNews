@@ -33,12 +33,12 @@
         NSString * pathString = [[NSBundle mainBundle] pathForResource:@"NYTimes" ofType:@"plist"];
         
         self.urlDictionary = [NSDictionary dictionaryWithContentsOfFile:pathString];
-        NSDictionary * itemDictionary =[self.urlDictionary objectForKey:@"Set User Status"];
-        self.host = [itemDictionary objectForKey:@"host"];
-        self.APIKey = [itemDictionary objectForKey:@"api-key"];
-        self.version=[itemDictionary objectForKey:@"version"];
-        self.days=[itemDictionary objectForKey:@"days"];
-        self.section=[itemDictionary objectForKey:@"section"];
+        
+        self.host = [self.urlDictionary objectForKey:@"host"];
+        self.APIKey = [self.urlDictionary objectForKey:@"api-key"];
+        self.version=[self.urlDictionary objectForKey:@"version"];
+        self.days=[self.urlDictionary objectForKey:@"days"];
+        self.section=[self.urlDictionary objectForKey:@"section"];
         
     }
     
@@ -83,6 +83,9 @@
     
     [self executeAPI:fullLink withPath:link withParameters:nil withMethod:method withSuccess:success withFailure:failure];
 }
+
+
+
 
 
 

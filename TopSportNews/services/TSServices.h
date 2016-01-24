@@ -16,6 +16,7 @@
 @property(nonatomic,copy) NSString* section;
 @property(nonatomic,copy) NSString* APIKey;
 @property(nonatomic,strong) NSDictionary* urlDictionary;
++ (TSServices*) sharedInstance;
 
 -(void)executeAPI:(NSString*)urlString withPath:(NSString*)path withParameters: (NSMutableDictionary*) parameters withMethod:(NSString*)method withSuccess:(void (^)(id json))success
       withFailure:(void (^)(NSInteger statusCode))failure;
