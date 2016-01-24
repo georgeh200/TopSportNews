@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E5A0E8D1C54CC53007A1DFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A0E8C1C54CC53007A1DFF /* main.m */; };
+		5E5A0E901C54CC53007A1DFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A0E8F1C54CC53007A1DFF /* AppDelegate.m */; };
+		5E5A0E931C54CC53007A1DFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A0E921C54CC53007A1DFF /* ViewController.m */; };
+		5E5A0E961C54CC53007A1DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A0E941C54CC53007A1DFF /* Main.storyboard */; };
+		5E5A0E981C54CC53007A1DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A0E971C54CC53007A1DFF /* Assets.xcassets */; };
+		5E5A0E9B1C54CC53007A1DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A0E991C54CC53007A1DFF /* LaunchScreen.storyboard */; };
+		5E5A0EA61C54CC53007A1DFF /* TopSportNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A0EA51C54CC53007A1DFF /* TopSportNewsTests.m */; };
+		5E5A0EB11C54CC53007A1DFF /* TopSportNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A0EB01C54CC53007A1DFF /* TopSportNewsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E5A0EA21C54CC53007A1DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5A0E801C54CC52007A1DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5A0E871C54CC52007A1DFF;
+			remoteInfo = TopSportNews;
+		};
+		5E5A0EAD1C54CC53007A1DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5A0E801C54CC52007A1DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5A0E871C54CC52007A1DFF;
+			remoteInfo = TopSportNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E5A0E881C54CC52007A1DFF /* TopSportNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopSportNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A0E8C1C54CC53007A1DFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E5A0E8E1C54CC53007A1DFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E5A0E8F1C54CC53007A1DFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E5A0E911C54CC53007A1DFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E5A0E921C54CC53007A1DFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E5A0E951C54CC53007A1DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E5A0E971C54CC53007A1DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E5A0E9A1C54CC53007A1DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E5A0E9C1C54CC53007A1DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5A0EA11C54CC53007A1DFF /* TopSportNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopSportNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A0EA51C54CC53007A1DFF /* TopSportNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopSportNewsTests.m; sourceTree = "<group>"; };
+		5E5A0EA71C54CC53007A1DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5A0EAC1C54CC53007A1DFF /* TopSportNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopSportNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A0EB01C54CC53007A1DFF /* TopSportNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopSportNewsUITests.m; sourceTree = "<group>"; };
+		5E5A0EB21C54CC53007A1DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E5A0E851C54CC52007A1DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A0E9E1C54CC53007A1DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A0EA91C54CC53007A1DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E5A0E7F1C54CC52007A1DFF = {
+			isa = PBXGroup;
+			children = (
+				5E5A0E8A1C54CC52007A1DFF /* TopSportNews */,
+				5E5A0EA41C54CC53007A1DFF /* TopSportNewsTests */,
+				5E5A0EAF1C54CC53007A1DFF /* TopSportNewsUITests */,
+				5E5A0E891C54CC52007A1DFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E5A0E891C54CC52007A1DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A0E881C54CC52007A1DFF /* TopSportNews.app */,
+				5E5A0EA11C54CC53007A1DFF /* TopSportNewsTests.xctest */,
+				5E5A0EAC1C54CC53007A1DFF /* TopSportNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E5A0E8A1C54CC52007A1DFF /* TopSportNews */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A0E8E1C54CC53007A1DFF /* AppDelegate.h */,
+				5E5A0E8F1C54CC53007A1DFF /* AppDelegate.m */,
+				5E5A0E911C54CC53007A1DFF /* ViewController.h */,
+				5E5A0E921C54CC53007A1DFF /* ViewController.m */,
+				5E5A0E941C54CC53007A1DFF /* Main.storyboard */,
+				5E5A0E971C54CC53007A1DFF /* Assets.xcassets */,
+				5E5A0E991C54CC53007A1DFF /* LaunchScreen.storyboard */,
+				5E5A0E9C1C54CC53007A1DFF /* Info.plist */,
+				5E5A0E8B1C54CC52007A1DFF /* Supporting Files */,
+			);
+			path = TopSportNews;
+			sourceTree = "<group>";
+		};
+		5E5A0E8B1C54CC52007A1DFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A0E8C1C54CC53007A1DFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E5A0EA41C54CC53007A1DFF /* TopSportNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A0EA51C54CC53007A1DFF /* TopSportNewsTests.m */,
+				5E5A0EA71C54CC53007A1DFF /* Info.plist */,
+			);
+			path = TopSportNewsTests;
+			sourceTree = "<group>";
+		};
+		5E5A0EAF1C54CC53007A1DFF /* TopSportNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A0EB01C54CC53007A1DFF /* TopSportNewsUITests.m */,
+				5E5A0EB21C54CC53007A1DFF /* Info.plist */,
+			);
+			path = TopSportNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E5A0E871C54CC52007A1DFF /* TopSportNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5A0EB51C54CC53007A1DFF /* Build configuration list for PBXNativeTarget "TopSportNews" */;
+			buildPhases = (
+				5E5A0E841C54CC52007A1DFF /* Sources */,
+				5E5A0E851C54CC52007A1DFF /* Frameworks */,
+				5E5A0E861C54CC52007A1DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopSportNews;
+			productName = TopSportNews;
+			productReference = 5E5A0E881C54CC52007A1DFF /* TopSportNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E5A0EA01C54CC53007A1DFF /* TopSportNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5A0EB81C54CC53007A1DFF /* Build configuration list for PBXNativeTarget "TopSportNewsTests" */;
+			buildPhases = (
+				5E5A0E9D1C54CC53007A1DFF /* Sources */,
+				5E5A0E9E1C54CC53007A1DFF /* Frameworks */,
+				5E5A0E9F1C54CC53007A1DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E5A0EA31C54CC53007A1DFF /* PBXTargetDependency */,
+			);
+			name = TopSportNewsTests;
+			productName = TopSportNewsTests;
+			productReference = 5E5A0EA11C54CC53007A1DFF /* TopSportNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E5A0EAB1C54CC53007A1DFF /* TopSportNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5A0EBB1C54CC53007A1DFF /* Build configuration list for PBXNativeTarget "TopSportNewsUITests" */;
+			buildPhases = (
+				5E5A0EA81C54CC53007A1DFF /* Sources */,
+				5E5A0EA91C54CC53007A1DFF /* Frameworks */,
+				5E5A0EAA1C54CC53007A1DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E5A0EAE1C54CC53007A1DFF /* PBXTargetDependency */,
+			);
+			name = TopSportNewsUITests;
+			productName = TopSportNewsUITests;
+			productReference = 5E5A0EAC1C54CC53007A1DFF /* TopSportNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E5A0E801C54CC52007A1DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "George Gameal";
+				TargetAttributes = {
+					5E5A0E871C54CC52007A1DFF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					5E5A0EA01C54CC53007A1DFF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5E5A0E871C54CC52007A1DFF;
+					};
+					5E5A0EAB1C54CC53007A1DFF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5E5A0E871C54CC52007A1DFF;
+					};
+				};
+			};
+			buildConfigurationList = 5E5A0E831C54CC52007A1DFF /* Build configuration list for PBXProject "TopSportNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E5A0E7F1C54CC52007A1DFF;
+			productRefGroup = 5E5A0E891C54CC52007A1DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E5A0E871C54CC52007A1DFF /* TopSportNews */,
+				5E5A0EA01C54CC53007A1DFF /* TopSportNewsTests */,
+				5E5A0EAB1C54CC53007A1DFF /* TopSportNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E5A0E861C54CC52007A1DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A0E9B1C54CC53007A1DFF /* LaunchScreen.storyboard in Resources */,
+				5E5A0E981C54CC53007A1DFF /* Assets.xcassets in Resources */,
+				5E5A0E961C54CC53007A1DFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A0E9F1C54CC53007A1DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A0EAA1C54CC53007A1DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E5A0E841C54CC52007A1DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A0E931C54CC53007A1DFF /* ViewController.m in Sources */,
+				5E5A0E901C54CC53007A1DFF /* AppDelegate.m in Sources */,
+				5E5A0E8D1C54CC53007A1DFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A0E9D1C54CC53007A1DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A0EA61C54CC53007A1DFF /* TopSportNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A0EA81C54CC53007A1DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5A0EB11C54CC53007A1DFF /* TopSportNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E5A0EA31C54CC53007A1DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E5A0E871C54CC52007A1DFF /* TopSportNews */;
+			targetProxy = 5E5A0EA21C54CC53007A1DFF /* PBXContainerItemProxy */;
+		};
+		5E5A0EAE1C54CC53007A1DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E5A0E871C54CC52007A1DFF /* TopSportNews */;
+			targetProxy = 5E5A0EAD1C54CC53007A1DFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E5A0E941C54CC53007A1DFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E5A0E951C54CC53007A1DFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E5A0E991C54CC53007A1DFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E5A0E9A1C54CC53007A1DFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E5A0EB31C54CC53007A1DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E5A0EB41C54CC53007A1DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E5A0EB61C54CC53007A1DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TopSportNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GK.TopSportNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E5A0EB71C54CC53007A1DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TopSportNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GK.TopSportNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E5A0EB91C54CC53007A1DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TopSportNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GK.TopSportNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopSportNews.app/TopSportNews";
+			};
+			name = Debug;
+		};
+		5E5A0EBA1C54CC53007A1DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TopSportNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GK.TopSportNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopSportNews.app/TopSportNews";
+			};
+			name = Release;
+		};
+		5E5A0EBC1C54CC53007A1DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TopSportNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GK.TopSportNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TopSportNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5E5A0EBD1C54CC53007A1DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TopSportNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GK.TopSportNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TopSportNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E5A0E831C54CC52007A1DFF /* Build configuration list for PBXProject "TopSportNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A0EB31C54CC53007A1DFF /* Debug */,
+				5E5A0EB41C54CC53007A1DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5A0EB51C54CC53007A1DFF /* Build configuration list for PBXNativeTarget "TopSportNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A0EB61C54CC53007A1DFF /* Debug */,
+				5E5A0EB71C54CC53007A1DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E5A0EB81C54CC53007A1DFF /* Build configuration list for PBXNativeTarget "TopSportNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A0EB91C54CC53007A1DFF /* Debug */,
+				5E5A0EBA1C54CC53007A1DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E5A0EBB1C54CC53007A1DFF /* Build configuration list for PBXNativeTarget "TopSportNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A0EBC1C54CC53007A1DFF /* Debug */,
+				5E5A0EBD1C54CC53007A1DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E5A0E801C54CC52007A1DFF /* Project object */;
+}
