@@ -46,7 +46,6 @@
 /* Begin PBXFileReference section */
 		5E54AD9E1C550FAE00D8A2BB /* TSNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSNews.h; path = utilities/TSNews.h; sourceTree = "<group>"; };
 		5E54AD9F1C550FAE00D8A2BB /* TSNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSNews.m; path = utilities/TSNews.m; sourceTree = "<group>"; };
-		5E54ADA01C550FAE00D8A2BB /* TSObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSObserver.h; path = utilities/TSObserver.h; sourceTree = "<group>"; };
 		5E54ADA21C550FCB00D8A2BB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = views/ViewController.h; sourceTree = "<group>"; };
 		5E54ADA31C550FCB00D8A2BB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = views/ViewController.m; sourceTree = "<group>"; };
 		5E54ADA71C55104600D8A2BB /* AFBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFBridge.h; path = services/AFBridge.h; sourceTree = "<group>"; };
@@ -226,7 +225,6 @@
 			children = (
 				5E54AD9E1C550FAE00D8A2BB /* TSNews.h */,
 				5E54AD9F1C550FAE00D8A2BB /* TSNews.m */,
-				5E54ADA01C550FAE00D8A2BB /* TSObserver.h */,
 			);
 			name = utilities;
 			sourceTree = "<group>";

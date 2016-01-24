@@ -27,7 +27,9 @@
     self = [super init];
     if (self) {
         self.arrArticles=[[NSMutableArray alloc]init];
-        self.arrObservers=[[NSMutableArray alloc]init];
+       
+        
+        
     }
     
     return self;
@@ -39,7 +41,14 @@
     [[TSServices sharedInstance]loadArticles:category withOffset:self.arrArticles.count withSuccess:^(id json) {
         
         if([json[@"status"] isEqualToString:@"OK"])
+        {
             [self parseArticles:json[@"results"]];
+            NSDictionary* userInfo = @{@"category": category};
+
+            [[NSNotificationCenter defaultCenter]
+             postNotificationName:@"RefreshArticles"
+             object:self  userInfo:userInfo];
+        }
         
     } withFailure:^(NSInteger statusCode) {
         
@@ -86,24 +95,10 @@
     
 }
 
-- (void) refreshOld:(NSString*)category
+- (void) getMoreArticles:(NSString*)category
 {
     
 }
--(void) addTSObserver:(id<TSObserver>*)observer
-{
-    
-    
-  //  [self.arrObservers addObject:observer];
-}
--(void) removeTSObserver:(id<TSObserver>*)observer
-{
-    
-  //  [self.arrObservers removeObject:observer];
-}
-- (void) notifyObeservers
-{
-    
-}
+
 
 @end

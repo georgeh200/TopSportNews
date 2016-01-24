@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TSObserver.h"
 #import "TSNews.h"
 
-@interface ViewController : UIViewController<TSObserver>
+@interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *vProgress;
 
 @property(nonatomic,weak)NSMutableArray* arrArticles;

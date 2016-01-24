@@ -20,6 +20,12 @@ static NSString* CATEGORY=@"sports";
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.vProgress startAnimating];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(receiveNotification:)
+                                                 name:@"RefreshArticles"
+                                               object:nil];
+    
     [[TSNews sharedInstance]refreshNew:CATEGORY];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -31,6 +37,19 @@ static NSString* CATEGORY=@"sports";
 
 -(void)articlesAvailable:(NSString*) category
 {
+    
+}
+
+
+- (void) receiveNotification:(NSNotification *) notification
+{
+    // [notification name] should always be @"TestNotification"
+    // unless you use this method for observation of other notifications
+    // as well.
+    
+    if (![[notification name] isEqualToString:@"RefreshArticles"]||![notification.userInfo[@"category"] isEqualToString:CATEGORY])
+        return;
+    NSLog(@"RefreshArticlesRefreshArticlesRefreshArticles");
     
 }
 
